@@ -6,7 +6,7 @@
     }
     environment {
         DOCKERHUB_CREDENTIALS = credentials('vianeyfloresDockerhub')
-        DOCKER_IMAGE = 'vianeyflores/practica5modulo5:$TAG'
+        DOCKER_IMAGE = 'vianeyflores/practica5modulo5:1.0'
     }
     stages {
         stage('Build') {
